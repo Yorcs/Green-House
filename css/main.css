@@ -393,7 +393,11 @@ input[type="radio"]{
 }
 
 #product-listing-elements h3{
-  align-self:center;
+  align-self:flex-start;
+}
+
+#combined-elements-checkout h3{
+  align-self: flex-start;
 }
 
 #payment-form input[type=text]{

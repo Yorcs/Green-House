@@ -21,36 +21,38 @@
     </header>
 
     <section id="combined-elements">
-      <section id="combined-elements-checkout">
-        <section id="element-checkout">
-          <h3>Checkout</h3>
-            <h4>Items</h4>
-            <ol>
-              <li>Cochemiea Guelzowiana - $24.00</li>
-              <li>Aloe - $21.00</li>
-              <li>Total Price: $45.00</li>
-            </ol>
+      <section class="element">
+        <section id="combined-elements-checkout">
+          <section id="element-checkout">
+            <h3>Checkout</h3>
+              <h4>Items</h4>
+              <ol>
+                <li>Cochemiea Guelzowiana - $24.00</li>
+                <li>Aloe - $21.00</li>
+                <li>Total Price: $45.00</li>
+              </ol>
+          </section>
+
+          <section id="payment-form">
+            <h3>Payment Form</h3>
+
+            <h4>Details</h4>
+              <label for = "name"> Full Name</label>
+              <input type="text" name = "name" id = "name">
+              <label for = "address"> Address</label>
+              <input type="text" name = "address" id = "address"> 
+
+              <h4>Payment Type</h4>
+              <input type="radio" id="visa" name="visa">
+              <label for="visa">Credit Card</label>
+              <input type="radio" id="debit" name="debit">
+              <label for="debit">Debit Card</label>
+              <input type="radio" id="pay" name="pay">
+              <label for="pay">Paypal</label><br>
+          </section>
+
+          <a class="button-nav" href="#">Checkout</a>
         </section>
-
-        <section id="payment-form">
-          <h3>Payment Form</h3>
-
-          <h4>Details</h4>
-            <label for = "name"> Full Name</label>
-            <input type="text" name = "name" id = "name">
-            <label for = "address"> Address</label>
-            <input type="text" name = "address" id = "address"> 
-
-            <h4>Payment Type</h4>
-            <input type="radio" id="visa" name="visa">
-            <label for="visa">Credit Card</label>
-            <input type="radio" id="debit" name="debit">
-            <label for="debit">Debit Card</label>
-            <input type="radio" id="pay" name="pay">
-            <label for="pay">Paypal</label><br>
-        </section>
-
-        <a class="button-nav" href="#">Checkout</a>
       </section>
     </section>
 
