@@ -26,6 +26,22 @@ nav{
   border-top-width: 0.15rem;
   border-top-style: dotted;
   border-top-color: rgb(209, 209, 209);
+  margin-right: 4em;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  align-self: center;
+}
+
+.elements-div{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding-right: 1em;
+  font-family: Raleway;
+  font-size: 16px;
 }
 
 .element-label{
@@ -37,6 +53,11 @@ nav{
   border-top-width: 0.15rem;
   border-top-style: dotted;
   border-top-color: rgb(209, 209, 209);
+  margin-right: 4em;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
 
 }
 
@@ -50,6 +71,11 @@ nav{
   border-top-width: 0.15rem;
   border-top-style: dotted;
   border-top-color: rgb(209, 209, 209);
+  margin-right: 4em;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
 
 }
 
@@ -326,7 +352,7 @@ input[type="radio"]{
   align-items: flex-start;
 }
 
-#categories{
+#combined-elements{
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
@@ -347,12 +373,29 @@ input[type="radio"]{
 
 /*Checkout Page*/
 
-.payment-form{
+#combined-elements-checkout{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
   padding-right: 1em;
   font-family: Raleway;
   font-size: 16px;
 }
 
-.payment-form input[type=text]{
+#product-listing-elements{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding-right: 1em;
+  font-family: Raleway;
+  font-size: 16px;
+}
+
+#product-listing-elements h3{
+  align-self:center;
+}
+
+#payment-form input[type=text]{
   padding-right: 8em;
 }
