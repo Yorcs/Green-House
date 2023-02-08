@@ -7,421 +7,421 @@
 
 
 @media screen and (min-width: 1008px){
-body {
-  background: white;
-  font-size: 16px;
-  padding: 2em;
-  padding-right: 15em;
-  padding-left: 15em;
-}
+  body {
+    background: white;
+    font-size: 16px;
+    padding: 2em;
+    padding-right: 15em;
+    padding-left: 15em;
+  }
 
-nav{
-  font-size: 14px;
-  display: flex;
-}
+  nav{
+    font-size: 14px;
+    display: flex;
+  }
 
-.heading_container{
-  display: flex;
-  flex-wrap: wrap;
-  align-items:flex-start;
-  flex-direction: row;
-}
+  .heading_container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    flex-direction: row;
+  }
 
-.heading_container div{
-  font-family: Raleway;
-  padding-bottom: 5rem;
-  border-top-width: 0.15rem;
-  border-top-style: dotted;
-  border-top-color: rgb(209, 209, 209);
-  margin-right: 4em;
-  padding-bottom: 3em;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  align-self: center;
-}
+  .heading_container div{
+    font-family: Raleway;
+    padding-bottom: 5rem;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    margin-right: 4em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-self: center;
+  }
 
-.element {
-  font-family: Raleway;
-  padding-bottom: 5rem;
-  border-top-width: 0.15rem;
-  border-top-style: dotted;
-  border-top-color: rgb(209, 209, 209);
-  margin-right: 4em;
-  padding-bottom: 3em;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-  align-self: center;
-}
+  .element {
+    font-family: Raleway;
+    padding-bottom: 5rem;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    margin-right: 4em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-self: center;
+  }
 
-.elements-div{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-  padding-right: 1em;
-  font-family: Raleway;
-  font-size: 16px;
-}
+  .elements-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 1em;
+    font-family: Raleway;
+    font-size: 16px;
+  }
 
-.element-label{
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-  border-top-width: 0.15rem;
-  border-top-style: dotted;
-  border-top-color: rgb(209, 209, 209);
-  margin-right: 4em;
-  padding-bottom: 3em;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  .element-label{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    margin-right: 4em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 
-}
+  }
 
-.element-buttons{
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  vertical-align: middle;
-  padding-bottom: 2rem;
-  padding-top: 1rem;
-  border-top-width: 0.15rem;
-  border-top-style: dotted;
-  border-top-color: rgb(209, 209, 209);
-  margin-right: 4em;
-  padding-bottom: 3em;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
+  .element-buttons{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    vertical-align: middle;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    margin-right: 4em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
 
-}
+  }
 
-ol {
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;padding: 1em;
-}
+  ol {
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;padding: 1em;
+  }
 
-/*
-https://www.w3schools.com/css/css_navbar_horizontal.asp
-Navigation bar reference*/
+  /*
+  https://www.w3schools.com/css/css_navbar_horizontal.asp
+  Navigation bar reference*/
 
-ul {
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  list-style-type: none;
-  border-radius: 5px;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: rgb(20, 211, 141);
-}
+  ul {
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    list-style-type: none;
+    border-radius: 5px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(20, 211, 141);
+  }
 
-ul li {
-  float: left;
-}
+  ul li {
+    float: left;
+  }
 
-ul li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
+  ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
 
-ul li a:hover {
-  background-color: rgb(255, 104, 154);
-}
+  ul li a:hover {
+    background-color: rgb(255, 104, 154);
+  }
 
-h1{
-  font-family: Raleway;
-  font-size: 44px;
-  color: rgb(20, 211, 141);
-}
+  h1{
+    font-family: Raleway;
+    font-size: 44px;
+    color: rgb(20, 211, 141);
+  }
 
-h2 {
-  font-family: Raleway;
-  font-size: 35px;
-  color: rgb(60, 60, 60);
-}
+  h2 {
+    font-family: Raleway;
+    font-size: 35px;
+    color: rgb(60, 60, 60);
+  }
 
-h3 {
-  font-family: Raleway;
-  font-size: 28px;
-  color:rgb(255, 104, 154);
-}
+  h3 {
+    font-family: Raleway;
+    font-size: 28px;
+    color:rgb(255, 104, 154);
+  }
 
-h4 {
-  font-family: Raleway;
-  font-size: 20px;
-  margin-bottom: 0.5rem;
-}
+  h4 {
+    font-family: Raleway;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+  }
 
-p{
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 16px;
-  margin-top: 0;
-  width: 50%;
-  line-height: 2em;
-  color: #333;
-}
+  p{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    width: 50%;
+    line-height: 2em;
+    color: #333;
+  }
 
-nav a:hover, nav a:focus {
-  text-decoration: none;
-}
+  nav a:hover, nav a:focus {
+    text-decoration: none;
+  }
 
-code {
-  background-color: #EEE;
-  padding: 0.5rem;
-  display: block;
-}
-
-
-/* 
-  INTERACTIVE ELEMENTS -------------------
-*/
-
-/* Styling for the navigation button */
-.button-nav {
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 14px;
-  display: inline-block;
-  padding: 0.8rem;
-  color: rgb(255, 255, 255);
-  background-color: rgb(20, 211, 141);
-  text-shadow: 1px 1px 2px #717171;
-  text-decoration: none;
-  border-radius: 6px;
-  transition-property: background-color; 
-  transition-duration: 0.4s;
-}
-
-.button-nav:hover, .button-nav:focus {
-  background-color: rgb(255, 104, 154);
-  color: rgb(255, 255, 255);
-}
-
-.button-submit{
-  background-color: rgb(255, 104, 154);
-}
-
-.image-link:hover{
-  opacity: .6;
-  transition: opacity .5s ease-out;
-}
-
-.image-link{
-  position:relative;
-  width: 200px;
-  height: 250px;
-}
-
-img{
-  border: 2px solid rgb(179, 179, 179);
-  border-radius: 25px;
-}
-
-.image-link:focus{
-  display:inline-block;
-  box-shadow: 2px 1px rgb(43, 121, 216);
-  background-color: rgb(43, 121, 216);
-}
-
-input[type=text] {
-  font-family: Raleway;
-  padding: 10px;
-  border:1px solid #ccc; 
-  -webkit-border-radius: 5px;
-  border-radius: 5px;
-}
-
-input[type=text]:hover {
-  border-color:rgb(20, 211, 141);
-}
-
-input[type=text]:focus {
-  border-color:#333;
-}
-
-input[type=submit] {
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  font-size: 12px;
-  padding:5px 15px; 
-  color: rgb(255, 255, 255);
-  background:rgb(20, 211, 141); 
-  text-shadow: 1px 1px 2px #717171;
-  border:0 none;
-  cursor:pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; 
-}
-input[type=submit]:hover{
-  background:rgb(0, 105, 67); 
-}
-
-input[type=reset] {
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  padding:5px 15px; 
-  font-size: 12px;
-  color: rgb(255, 255, 255);
-  background:rgb(255, 104, 154); 
-  text-shadow: 1px 1px 2px #717171;
-  border:0 none;
-  cursor:pointer;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; 
-}
-
-input[type=reset]:hover{
-  background:rgb(156, 35, 76); 
-}
-
-input[type="radio"]{
-  margin: 20px 0px 30px 0px;
-}
+  code {
+    background-color: #EEE;
+    padding: 0.5rem;
+    display: block;
+  }
 
 
-/* 
-  TEXT ELEMENTS -------------------
-*/
-.text-link{
-  font-family: adelle, serif;
-  font-style: normal;
-  font-weight: 100;
-  color: rgb(58, 179, 122);
-}
+  /* 
+    INTERACTIVE ELEMENTS -------------------
+  */
 
-.text-link:hover{
-  transition-duration: 0.2s;
-  color: rgb(255, 104, 154);
-}
+  /* Styling for the navigation button */
+  .button-nav {
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 14px;
+    display: inline-block;
+    padding: 0.8rem;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 211, 141);
+    text-shadow: 1px 1px 2px #717171;
+    text-decoration: none;
+    border-radius: 6px;
+    transition-property: background-color; 
+    transition-duration: 0.4s;
+  }
 
-.text-link:focus{
-  color: rgb(43, 121, 216);
-}
+  .button-nav:hover, .button-nav:focus {
+    background-color: rgb(255, 104, 154);
+    color: rgb(255, 255, 255);
+  }
 
-/*Brand*/
-#main-block{
-  font-size: 12px;
-  padding-left: 1em;
-  background-color: rgb(20, 211, 141); 
-  border-radius: 8px;
-  width: 50%;
-}
+  .button-submit{
+    background-color: rgb(255, 104, 154);
+  }
 
-#sub-block{
-  padding-left: 1em;
-  background-color: rgb(255, 104, 154); 
-  border-radius: 8px;
-  width: 50%;
-}
+  .image-link:hover{
+    opacity: .6;
+    transition: opacity .5s ease-out;
+  }
 
-#main-interactive-block{
-  padding-left: 1em;
-  background-color: rgb(0, 105, 67); ; 
-  border-radius: 8px;
-  width: 50%;
-}
+  .image-link{
+    position:relative;
+    width: 200px;
+    height: 250px;
+  }
 
-#main-interactive-block p{
-  color: rgb(255, 255, 255);
-}
+  img{
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 25px;
+  }
 
-#sub-interactive-block{
-  padding-left: 1em;
-  background-color: rgb(156, 35, 76); 
-  border-radius: 8px;
-  width: 50%;
-}
+  .image-link:focus{
+    display:inline-block;
+    box-shadow: 2px 1px rgb(43, 121, 216);
+    background-color: rgb(43, 121, 216);
+  }
 
-#sub-interactive-block p{
-  color: rgb(255, 255, 255);
-}
+  input[type=text] {
+    font-family: Raleway;
+    padding: 10px;
+    border:1px solid #ccc; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+  }
 
-/* 
-  COMBINED ELEMENTS -------------------
-*/
+  input[type=text]:hover {
+    border-color:rgb(20, 211, 141);
+  }
 
-/*Style guide head sections */
+  input[type=text]:focus {
+    border-color:#333;
+  }
 
-#interactive_elements{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: flex-start;
-}
+  input[type=submit] {
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 12px;
+    padding:5px 15px; 
+    color: rgb(255, 255, 255);
+    background:rgb(20, 211, 141); 
+    text-shadow: 1px 1px 2px #717171;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
+  input[type=submit]:hover{
+    background:rgb(0, 105, 67); 
+  }
 
-#text_elements{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: flex-start;
-}
+  input[type=reset] {
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    padding:5px 15px; 
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    background:rgb(255, 104, 154); 
+    text-shadow: 1px 1px 2px #717171;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+  }
 
-#combined-elements{
-  background-color: rgb(255, 255, 255);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  flex-direction: row;
-  align-items: flex-start;
-}
+  input[type=reset]:hover{
+    background:rgb(156, 35, 76); 
+  }
 
-/*Product Listing*/
+  input[type="radio"]{
+    margin: 20px 0px 30px 0px;
+  }
 
-.item-box{
-  margin-right: 4em;
-  padding-bottom: 3em;
-  box-sizing: border-box;
-  background-color: rgb(255, 255, 255);
-  border-radius: 20px;
-}
 
-/*Checkout Page*/
+  /* 
+    TEXT ELEMENTS -------------------
+  */
+  .text-link{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    color: rgb(58, 179, 122);
+  }
 
-#combined-elements-checkout{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: flex-start;
-  padding-right: 1em;
-  font-family: Raleway;
-  font-size: 16px;
-}
+  .text-link:hover{
+    transition-duration: 0.2s;
+    color: rgb(255, 104, 154);
+  }
 
-#product-listing-elements{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding-right: 1em;
-  font-family: Raleway;
-  font-size: 16px;
-}
+  .text-link:focus{
+    color: rgb(43, 121, 216);
+  }
 
-#product-listing-elements h3{
-  align-self:flex-start;
-}
+  /*Brand*/
+  #main-block{
+    font-size: 12px;
+    padding-left: 1em;
+    background-color: rgb(20, 211, 141); 
+    border-radius: 8px;
+    width: 50%;
+  }
 
-#combined-elements-checkout h3{
-  align-self: flex-start;
-}
+  #sub-block{
+    padding-left: 1em;
+    background-color: rgb(255, 104, 154); 
+    border-radius: 8px;
+    width: 50%;
+  }
 
-#payment-form input[type=text]{
-  padding-right: 8em;
-}
+  #main-interactive-block{
+    padding-left: 1em;
+    background-color: rgb(0, 105, 67); ; 
+    border-radius: 8px;
+    width: 50%;
+  }
+
+  #main-interactive-block p{
+    color: rgb(255, 255, 255);
+  }
+
+  #sub-interactive-block{
+    padding-left: 1em;
+    background-color: rgb(156, 35, 76); 
+    border-radius: 8px;
+    width: 50%;
+  }
+
+  #sub-interactive-block p{
+    color: rgb(255, 255, 255);
+  }
+
+  /* 
+    COMBINED ELEMENTS -------------------
+  */
+
+  /*Style guide head sections */
+
+  #interactive_elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #text_elements{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  #combined-elements{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  /*Product Listing*/
+
+  .item-box{
+    margin-right: 4em;
+    padding-bottom: 3em;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+  }
+
+  /*Checkout Page*/
+
+  #combined-elements-checkout{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 1em;
+    font-family: Raleway;
+    font-size: 16px;
+  }
+
+  #product-listing-elements{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 1em;
+    font-family: Raleway;
+    font-size: 16px;
+  }
+
+  #product-listing-elements h3{
+    align-self:flex-start;
+  }
+
+  #combined-elements-checkout h3{
+    align-self: flex-start;
+  }
+
+  #payment-form input[type=text]{
+    padding-right: 8em;
+  }
 }
