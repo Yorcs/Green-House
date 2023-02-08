@@ -5,7 +5,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.cdnfonts.com/css/adelle');
 
-
 @media screen and (min-width: 1008px){
   body {
     background: white;
@@ -103,7 +102,8 @@
   ol {
     font-family: adelle, serif;
     font-style: normal;
-    font-weight: 100;padding: 1em;
+    font-weight: 100;
+    padding: 1em;
   }
 
   /*
@@ -360,7 +360,7 @@
   #interactive_elements{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -368,7 +368,7 @@
   #text_elements{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -377,7 +377,7 @@
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: start;
     flex-direction: row;
     align-items: flex-start;
   }
