@@ -308,13 +308,34 @@ input[type="radio"]{
   COMBINED ELEMENTS -------------------
 */
 
-/*Product Listing*/
+/*Style guide head sections */
 
-.categories{
+#interactive_elements{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#text_elements{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#categories{
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  flex-direction: row;
+  align-items: flex-start;
 }
+
+/*Product Listing*/
 
 .item-box{
   margin-right: 4em;
