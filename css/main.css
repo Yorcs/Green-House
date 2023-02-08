@@ -20,6 +20,27 @@ nav{
   display: flex;
 }
 
+.heading_container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items:flex-start;
+  flex-direction: row;
+}
+
+.heading_container div{
+  font-family: Raleway;
+  padding-bottom: 5rem;
+  border-top-width: 0.15rem;
+  border-top-style: dotted;
+  border-top-color: rgb(209, 209, 209);
+  margin-right: 4em;
+  padding-bottom: 3em;
+  box-sizing: border-box;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  align-self: center;
+}
+
 .element {
   font-family: Raleway;
   padding-bottom: 5rem;
@@ -339,7 +360,7 @@ input[type="radio"]{
 #interactive_elements{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -347,7 +368,7 @@ input[type="radio"]{
 #text_elements{
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -356,7 +377,7 @@ input[type="radio"]{
   background-color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: row;
   align-items: flex-start;
 }
