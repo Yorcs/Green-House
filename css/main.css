@@ -197,27 +197,22 @@
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
     display: inline-block;
-    padding: 0.8rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(20, 211, 141);
-    text-shadow: 1px 1px 2px #717171;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
     text-decoration: none;
-    border-radius: 6px;
-    transition-property: background-color; 
+    border-radius: 25px; 
     transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
   }
   
   .button-nav:hover, .button-nav:focus {
-    background-color: rgb(255, 104, 154);
-    color: rgb(255, 255, 255);
+    color: white;
+    background-color: #588534;
   }
-  
-  .button-submit{
-    background-color: rgb(255, 104, 154);
-  }
-  
+
   .image-link:hover{
     opacity: .6;
     transition: opacity .5s ease-out;
@@ -244,7 +239,6 @@
     font-family: Raleway;
     padding: 10px;
     border:1px solid #ccc; 
-    -webkit-border-radius: 5px;
     border-radius: 5px;
   }
   
@@ -261,36 +255,37 @@
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
-    padding:5px 15px; 
-    color: rgb(255, 255, 255);
-    background:rgb(20, 211, 141); 
-    text-shadow: 1px 1px 2px #717171;
+    padding:10px 20px; 
+    color: #588534;
+    background: white; 
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
     border:0 none;
     cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 20px; 
+    transition-duration: 0.2s;
   }
   input[type=submit]:hover{
-    background:rgb(0, 105, 67); 
+    color: white;
+    background: #588534; 
   }
   
   input[type=reset] {
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    padding:5px 15px; 
     font-size: 12px;
-    color: rgb(255, 255, 255);
-    background:rgb(255, 104, 154); 
-    text-shadow: 1px 1px 2px #717171;
+    padding:10px 20px; 
+    color: white;
+    background: #E4B480; 
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
     border:0 none;
     cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 20px; 
+    transition-duration: 0.2s;
   }
   
   input[type=reset]:hover{
-    background:rgb(156, 35, 76); 
+    background:#145A30; 
   }
   
   input[type="radio"]{
@@ -305,16 +300,16 @@
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    color: rgb(58, 179, 122);
+    color: #588534;
   }
   
   .text-link:hover{
     transition-duration: 0.2s;
-    color: rgb(255, 104, 154);
+    color: #E4B480;
   }
   
   .text-link:focus{
-    color: rgb(43, 121, 216);
+    color: #145A30;
   }
   
   /*Brand*/
@@ -584,6 +579,7 @@
     text-align: center;
     padding: 18px 25px;
     text-decoration: none;
+    transition-duration: 0.2s;
   }
   
   ul li a:hover {
@@ -646,27 +642,22 @@
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    font-size: 14px;
+    font-size: 12px;
     display: inline-block;
-    padding: 0.8rem;
-    color: rgb(255, 255, 255);
-    background-color: rgb(20, 211, 141);
-    text-shadow: 1px 1px 2px #717171;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
     text-decoration: none;
-    border-radius: 6px;
-    transition-property: background-color; 
+    border-radius: 25px; 
     transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
   }
   
   .button-nav:hover, .button-nav:focus {
-    background-color: rgb(255, 104, 154);
-    color: rgb(255, 255, 255);
+    color: white;
+    background-color: #588534;
   }
-  
-  .button-submit{
-    background-color: rgb(255, 104, 154);
-  }
-  
+
   .image-link:hover{
     opacity: .6;
     transition: opacity .5s ease-out;
@@ -710,36 +701,37 @@
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
-    padding:5px 15px; 
-    color: rgb(255, 255, 255);
-    background:rgb(20, 211, 141); 
-    text-shadow: 1px 1px 2px #717171;
+    padding:10px 20px; 
+    color: #588534;
+    background: white; 
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
     border:0 none;
     cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 20px; 
+    transition-duration: 0.2s;
   }
   input[type=submit]:hover{
-    background:rgb(0, 105, 67); 
+    color: white;
+    background: #588534; 
   }
   
   input[type=reset] {
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    padding:5px 15px; 
     font-size: 12px;
-    color: rgb(255, 255, 255);
-    background:rgb(255, 104, 154); 
-    text-shadow: 1px 1px 2px #717171;
+    padding:10px 20px; 
+    color: white;
+    background: #E4B480; 
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
     border:0 none;
     cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
+    border-radius: 20px; 
+    transition-duration: 0.2s;
   }
   
   input[type=reset]:hover{
-    background:rgb(156, 35, 76); 
+    background:#145A30; 
   }
   
   input[type="radio"]{
@@ -754,16 +746,16 @@
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
-    color: rgb(58, 179, 122);
+    color: #588534;
   }
   
   .text-link:hover{
     transition-duration: 0.2s;
-    color: rgb(255, 104, 154);
+    color: #E4B480;
   }
   
   .text-link:focus{
-    color: rgb(43, 121, 216);
+    color: #145A30;
   }
   
   /*Brand*/
