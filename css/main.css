@@ -18,7 +18,7 @@
   }
 
   nav{
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
   }
@@ -123,7 +123,7 @@
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(20, 211, 141);
+    background-color: rgb(220, 243, 235);
   }
   
   ul li {
@@ -564,12 +564,14 @@
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
+    font-size: 12px;
     list-style-type: none;
-    border-radius: 5px;
+    border-radius: 40px;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(20, 211, 141);
+    background-color: white;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
   }
   
   ul li {
@@ -578,20 +580,21 @@
   
   ul li a {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 25px;
     text-decoration: none;
   }
   
   ul li a:hover {
-    background-color: rgb(255, 104, 154);
+    color:white;
+    background-color: #588534;
   }
   
   h1{
     font-family: Raleway;
     font-size: 44px;
-    color: rgb(20, 211, 141);
+    color: #588534;
   }
   
   h2 {
@@ -603,7 +606,7 @@
   h3 {
     font-family: Raleway;
     font-size: 28px;
-    color:rgb(255, 104, 154);
+    color:#145A30;
   }
   
   h4 {
