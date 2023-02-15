@@ -5,452 +5,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.cdnfonts.com/css/adelle');
 
-
-/* Small size */
-
-@media screen and (min-width: 0px){
   body{
-    background: white;
-    font-size: 16px;
-    padding: 2em;
-    padding-right: 5em;
-    padding-left: 5em;
-  }
-
-  nav{
-    font-size: 12px;
-    display: flex;
-    flex-direction: column;
-  }
-
-  .heading_container{
-    display: flex;
-    flex-wrap: wrap;
-    align-items:flex-start;
-    flex-direction: column;
-  }
-  
-  .heading_container div{
-    font-family: Raleway;
-    padding-bottom: 5rem;
-    border-top-width: 0.15rem;
-    border-top-style: dotted;
-    border-top-color: rgb(209, 209, 209);
-    margin-right: 4em;
-    padding-bottom: 3em;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    align-self: center;
-  }
-  
-  .element {
-    font-family: Raleway;
-    padding-bottom: 5rem;
-    border-top-width: 0.15rem;
-    border-top-style: dotted;
-    border-top-color: rgb(209, 209, 209);
-    margin-right: 4em;
-    padding-bottom: 3em;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    align-self: center;
-  }
-  
-  .elements-div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    padding-right: 1em;
-    font-family: Raleway;
-    font-size: 16px;
-  }
-  
-  .element-label{
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-    border-top-width: 0.15rem;
-    border-top-style: dotted;
-    border-top-color: rgb(209, 209, 209);
-    margin-right: 4em;
-    padding-bottom: 3em;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-  
-  }
-  
-  .element-buttons{
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    vertical-align: middle;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
-    border-top-width: 0.15rem;
-    border-top-style: dotted;
-    border-top-color: rgb(209, 209, 209);
-    margin-right: 4em;
-    padding-bottom: 3em;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-  
-  }
-  
-  ol {
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    padding: 1em;
-  }
-  
-  /*
-  https://www.w3schools.com/css/css_navbar_horizontal.asp
-  Navigation bar reference*/
-  
-  ul {
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    list-style-type: none;
-    border-radius: 5px;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(220, 243, 235);
-  }
-  
-  ul li {
-    float: center;
-  }
-  
-  ul li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 2em 2em;
-    text-decoration: none;
-  }
-  
-  ul li a:hover {
-    background-color: rgb(255, 104, 154);
-  }
-  
-  h1{
-    font-family: Raleway;
-    font-size: 44px;
-    color: rgb(20, 211, 141);
-  }
-  
-  h2 {
-    font-family: Raleway;
-    font-size: 35px;
-    color: rgb(60, 60, 60);
-  }
-  
-  h3 {
-    font-family: Raleway;
-    font-size: 28px;
-    color:rgb(255, 104, 154);
-  }
-  
-  h4 {
-    font-family: Raleway;
-    font-size: 20px;
-    margin-bottom: 0.5rem;
-  }
-  
-  p{
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 16px;
-    margin-top: 0;
-    width: 100%;
-    line-height: 2em;
-    color: #333;
-  }
-  
-  nav a:hover, nav a:focus {
-    text-decoration: none;
-  }
-  
-  code {
-    background-color: #EEE;
-    padding: 0.5rem;
-    display: block;
-  }
-  
-  
-  /* 
-    INTERACTIVE ELEMENTS -------------------
-  */
-  
-  /* Styling for the navigation button */
-  .button-nav {
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
-    display: inline-block;
-    padding: 0.9rem;
-    color: #588534;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 25px; 
-    transition-duration: 0.4s;
-    box-shadow: 1.5px 2.5px 5px #D9D9D9;
-  }
-  
-  .button-nav:hover, .button-nav:focus {
-    color: white;
-    background-color: #588534;
-  }
-
-  .image-link:hover{
-    opacity: .6;
-    transition: opacity .5s ease-out;
-  }
-  
-  .image-link{
-    position:relative;
-    width: 200px;
-    height: 250px;
-  }
-  
-  img{
-    border: 2px solid rgb(179, 179, 179);
-    border-radius: 25px;
-  }
-  
-  .image-link:focus{
-    display:inline-block;
-    box-shadow: 2px 1px rgb(43, 121, 216);
-    background-color: rgb(43, 121, 216);
-  }
-  
-  input[type=text] {
-    font-family: Raleway;
-    padding: 10px;
-    border:1px solid #ccc; 
-    border-radius: 5px;
-  }
-  
-  input[type=text]:hover {
-    border-color:rgb(20, 211, 141);
-  }
-  
-  input[type=text]:focus {
-    border-color:#333;
-  }
-  
-  input[type=submit] {
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
-    padding:10px 20px; 
-    color: #588534;
-    background: white; 
-    box-shadow: 1.5px 2.5px 5px #D9D9D9;
-    border:0 none;
-    cursor:pointer;
-    border-radius: 20px; 
-    transition-duration: 0.2s;
-  }
-  input[type=submit]:hover{
-    color: white;
-    background: #588534; 
-  }
-  
-  input[type=reset] {
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    font-size: 12px;
-    padding:10px 20px; 
-    color: white;
-    background: #E4B480; 
-    box-shadow: 1.5px 2.5px 5px #D9D9D9;
-    border:0 none;
-    cursor:pointer;
-    border-radius: 20px; 
-    transition-duration: 0.2s;
-  }
-  
-  input[type=reset]:hover{
-    background:#145A30; 
-  }
-  
-  input[type="radio"]{
-    margin: 20px 0px 30px 0px;
-  }
-  
-  
-  /* 
-    TEXT ELEMENTS -------------------
-  */
-  .text-link{
-    font-family: adelle, serif;
-    font-style: normal;
-    font-weight: 100;
-    color: #588534;
-  }
-  
-  .text-link:hover{
-    transition-duration: 0.2s;
-    color: #E4B480;
-  }
-  
-  .text-link:focus{
-    color: #145A30;
-  }
-  
-  /*Brand*/
-  #main-block{
-    padding-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    background-color: rgb(20, 211, 141); 
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  #sub-block{
-    padding-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    background-color: rgb(255, 104, 154); 
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  #main-interactive-block{
-    padding-left: 1em;
-    margin-right: 1em;
-    margin-bottom: 1em;
-    background-color: rgb(0, 105, 67); ; 
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  #main-interactive-block p{
-    color: rgb(255, 255, 255);
-  }
-  
-  #sub-interactive-block{
-    padding-left: 1em;
-    margin-bottom: 1em;
-    margin-right: 1em;
-    background-color: rgb(156, 35, 76); 
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
-  }
-  
-  #sub-interactive-block p{
-    color: rgb(255, 255, 255);
-  }
-  
-  
-  .palette-box{
-    display: flex;
-    justify-content: start;
-  }
-  
-  /* 
-    COMBINED ELEMENTS -------------------
-  */
-  
-  /*Style guide head sections */
-  
-  #interactive_elements{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  #text_elements{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  #combined-elements{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-  }
-  
-  /*Product Listing*/
-  
-  .item-box{
-    margin-right: 4em;
-    padding-bottom: 3em;
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-  }
-  
-  /*Checkout Page*/
-  
-  #combined-elements-checkout{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    padding-right: 1em;
-    font-family: Raleway;
-    font-size: 16px;
-  }
-  
-  #product-listing-elements{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    padding-right: 1em;
-    font-family: Raleway;
-    font-size: 16px;
-  }
-  
-  #product-listing-elements h3{
-    align-self:flex-start;
-  }
-  
-  #combined-elements-checkout h3{
-    align-self: flex-start;
-  }
-  
-  #payment-form input[type=text]{
-    margin-top: 1em;
-    padding-right: 8em;
-  }
-}
-
-/* Medium size */
-
-@media screen and (min-width: 641px){
-
-}
-
-@media screen and (min-width: 1008px){
-  body {
     background: white;
     font-size: 16px;
     padding: 2em;
@@ -523,6 +78,7 @@
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    align-self: center;
   
   }
   
@@ -541,6 +97,7 @@
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
+    align-self: center;
   
   }
   
@@ -883,7 +440,69 @@
     align-self: flex-start;
   }
   
+  #payment-form label{
+    margin-right: 1em;
+  }
+
   #payment-form input[type=text]{
+    margin-right: 2em;
     padding-right: 8em;
   }
+
+  /* Small size */
+
+@media screen and (min-width: 340px) and (max-width:641px){
+  body{
+    min-width: 340px;
+    background: white;
+    font-size: 16px;
+    padding: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+
+  nav{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  h1{
+    font-size: 2.5em;
+    margin-right: 0.5em;
+  }
+
+  h2{
+    font-size: 1.8em;
+  }
+
+
+  #interactive_elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #text_elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #combined-elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
+
+/* Medium size */
+
+@media screen and (min-width: 641px) and (max-width: 1007px){
+
 }
