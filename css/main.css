@@ -8,14 +8,26 @@
   body{
     background: white;
     font-size: 16px;
-    padding: 2em;
     padding-right: 15em;
     padding-left: 15em;
+  }
+
+  header{
+    width:100%;
+    padding-top: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  header h1{
+    flex:1;
+    font-size: 48px;
+    font-weight: 700;
   }
   
   nav{
     font-size: 14px;
-    display: flex;
     flex-direction: row;
   }
   
@@ -52,6 +64,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     align-self: center;
+    
   }
   
   .elements-div{
@@ -148,6 +161,7 @@
     font-family: Raleway;
     font-size: 44px;
     color: #588534;
+    margin-top: 0;
   }
   
   h2 {
