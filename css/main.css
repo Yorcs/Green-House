@@ -8,27 +8,34 @@
   body{
     background: white;
     font-size: 16px;
-    padding-right: 15em;
-    padding-left: 15em;
+    padding: 0;
+    margin:0;
   }
 
-  header{
+  .navbar{
+    background-color: #ffffff;
     width:100%;
     padding-top: 1em;
-    display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    position: fixed;
+    display: flex;
+    align-items: center;
   }
 
-  header h1{
+  .navbar h1{
     flex:1;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 700;
+    padding-left: 1em;
+    padding-bottom:0.51em;
+    margin: 0;
   }
   
   nav{
     font-size: 14px;
     flex-direction: row;
+    padding-right: 2em;
   }
   
   .heading_container{
@@ -54,12 +61,12 @@
   
   .element {
     font-family: Raleway;
-    padding-bottom: 5rem;
+    padding: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
     border-top-width: 0.15rem;
     border-top-style: dotted;
     border-top-color: rgb(209, 209, 209);
-    margin-right: 4em;
-    padding-bottom: 3em;
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
