@@ -61,9 +61,12 @@
   
   .element {
     font-family: Raleway;
-    padding: 5em;
-    padding-left: 15em;
-    padding-right: 15em;
+    padding: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 1em;
     border-top-width: 0.15rem;
     border-top-style: dotted;
     border-top-color: rgb(209, 209, 209);
