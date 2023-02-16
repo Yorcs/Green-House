@@ -424,6 +424,20 @@
     flex-direction: row;
     align-items: flex-start;
   }
+
+  #branding{
+    font-family: Raleway;
+    padding: 5em;
+    padding-left: 15em;
+    padding-right: 15em;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    align-self: center;
+  }
   
   /*Product Listing*/
   
