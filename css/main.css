@@ -130,6 +130,10 @@
     font-weight: 100;
     padding: 1em;
   }
+
+  ol li a{
+    display: block;
+  }
   
   /*
   https://www.w3schools.com/css/css_navbar_horizontal.asp
@@ -440,6 +444,29 @@
   }
   
   /*Product Listing*/
+
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-right: 1em;
+    font-family: Raleway;
+    font-size: 16px;
+    margin-top: 3em;
+  }
+
+  #filters{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #filter-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+  }
   
   .item-box{
     margin-right: 4em;
@@ -464,7 +491,9 @@
   #product-listing-elements{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding-right: 1em;
     font-family: Raleway;
     font-size: 16px;
@@ -491,12 +520,19 @@
 
 @media screen and (min-width: 340px) and (max-width:641px){
   body{
-    min-width: 340px;
     background: white;
     font-size: 16px;
     padding: 2em;
     padding-right: 1em;
     padding-left: 1em;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: column;
+    padding:1em;
+    align-items: flex-start;
+    height: 2em;
   }
 
   nav{
@@ -519,6 +555,7 @@
     font-size: 1.8em;
   }
 
+  /* head sections */
 
   #interactive_elements{
     align-content: center;
@@ -536,6 +573,12 @@
     align-content: center;
     justify-content: center;
     flex-direction: column;
+  }
+
+  #branding{
+    padding: 3em;
+    padding-left: 3em;
+    padding-right: 3em;
   }
 }
 
