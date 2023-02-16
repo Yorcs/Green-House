@@ -193,7 +193,8 @@
   h4 {
     font-family: Raleway;
     font-size: 20px;
-    margin-bottom: 0.5rem;
+    margin-bottom: 2rem;
+    color:#145A30;
   }
   
   p{
@@ -492,7 +493,6 @@
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
     align-items: center;
     padding-right: 1em;
     font-family: Raleway;
@@ -500,7 +500,9 @@
   }
   
   #product-listing-elements h3{
+    margin-top: 3em;
     align-self:flex-start;
+    flex-grow: 10;
   }
   
   #combined-elements-checkout h3{
