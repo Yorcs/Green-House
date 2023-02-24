@@ -16,20 +16,38 @@
           <li><a href="checkout.html">Checkout</a></li>
         </ul> 
       </nav>
-    </header>
+       </header>
     
-    <section class="element">
-      <section id="product-listing-elements">
-        <h3>Product Listing</h3>
-
-        <div class="elements-div">
-          <div class="item-box">
-            <a class="image-link"  href="https://www.google.com/"> <img src="img/pink.jpg" alt = "image of pink succulent" width="200" 
-            height="250"></a>
-            <h4>Kaya</h4>
-            <p>$24.00</p>
-            <a class="text-link" href="">More about</a>
-          </div>
+        <section id="product-listing-elements">
+          <h3>Product Listing</h3>
+            <div class="products">
+              <h4>Filters</h4>
+              <div class="filter-content">
+                <input type="radio" id="visa" name="visa">
+                <label for="visa">Succulents</label>
+              </div>
+              <div class="filter-content">
+                <input type="radio" id="debit" name="debit">
+              </div>
+                <label for="debit">Pots</label>
+                <div class="filter-content">
+                <input type="radio" id="pay" name="pay">
+                <label for="pay">Tools</label>
+              </div>
+            </div>
+            <div class="products">
+              <h4>Succulents</h4>
+              <div class="elements-div">
+                <div class="item-box">
+                  <img src="img/pink.jpg" alt = "image of pink succulent" width="200" 
+                  height="250">
+                  <h4>Kaya</h4>
+                  <p>$24.00</p>
+                  <button type="button" class="collapsible">More about</button>
+                  <script src="js/collapsible.js" class="content">
+                    <p>Lorem Ipsum Dolores</p>
+                  </script>
+                </div>
 
           <div class="item-box">
             <a class="image-link"  href="https://www.google.com/"> <img src="img/adele.jpg" alt = "image of a cactus with a pink succulent" width="200" 
