@@ -9,14 +9,16 @@
     background: white;
     font-size: 16px;
     padding: 0;
+    height: 100vh;
     margin:0;
   }
 
   header{
     background-color: #ffffff;
     width:100%;
-    padding-top: 1em;
     flex-wrap: wrap;
+    border-bottom: 2px solid rgb(179, 179, 179);
+    border-radius: 10px;
     justify-content: center;
     position: fixed;
     display: flex;
@@ -28,6 +30,7 @@
     flex:1;
     font-size: 32px;
     font-weight: 700;
+    padding-top: 0.3em;
     padding-left: 1em;
     padding-bottom:0.51em;
     margin: 0;
@@ -224,7 +227,7 @@
     margin-top: 0;
   }
   
-  h2 {
+  .h2-headings {
     font-family: Raleway;
     font-size: 35px;
     color: rgb(60, 60, 60);
@@ -232,7 +235,7 @@
     margin-top: 0;
   }
 
-  #h2-headings{
+  h2{
     font-family: Raleway;
     font-size: 35px;
     color: rgb(60, 60, 60);
@@ -284,6 +287,8 @@
     font-style: normal;
     font-weight: 100;
     font-size: 12px;
+    text-align: center;
+    width: 40%;
     display: inline-block;
     padding: 0.9rem;
     color: #588534;
@@ -496,6 +501,56 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     align-self: center;
+  }
+
+  /* Product Page */
+
+  #product_page{
+    padding-top: 10em;
+    padding-left: 18em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #product_details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 2em;
+  }
+
+
+  #product_description{
+    font-style: normal;
+    font-family: adelle, serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    width: 70%;
+    line-height: 2em;
+    color: #333;
+    margin-bottom: 7em;
+  }
+
+  #price{
+    font-style: italic;
+    font-family: adelle, serif;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 2em;
+    width: 70%;
+    line-height: 2em;
+    color: #333;
+  }
+
+  #product_details .button-nav{
+    margin-left: 5em;
   }
   
   /*Product Listing*/
