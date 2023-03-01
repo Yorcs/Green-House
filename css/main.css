@@ -439,7 +439,12 @@
   }
   
   input[type="radio"]{
-    margin: 20px 0px 30px 0px;
+    margin: 10px 5px 15px 15px;
+
+  }
+
+  #payment-radio{
+    padding-right: 3em;
   }
   
   
@@ -548,10 +553,12 @@
     align-items: flex-start;
   }
 
+
   /*Main Home Page*/
   .home{
     width: 100%;
   }
+
   .centered {
   position: absolute;
   top: 50%;
@@ -592,22 +599,27 @@
   /* Product Page */
 
   #product_page{
-    padding-top: 10em;
+    padding-top: 8em;
     padding-left: 18em;
+    padding-bottom: 5em;
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
+  }
+
+  #product_page img{
+    width: 30%;
+    height: auto;
   }
 
   #product_details{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: flex-start;
-    padding-left: 2em;
   }
 
 
@@ -617,10 +629,10 @@
     font-weight: 100;
     font-size: 16px;
     margin-top: 0;
-    width: 70%;
+    width: 60%;
     line-height: 2em;
     color: #333;
-    margin-bottom: 7em;
+    margin-bottom: 4em;
   }
 
   #price{
@@ -679,9 +691,9 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-items: flex-start;
-    padding-right: 1em;
     font-family: Raleway;
     font-size: 16px;
+    margin-top: 2em;
   }
   
   #product-listing-elements{
@@ -710,8 +722,8 @@
     background-color: #ffffff;
     box-shadow: 1.5px 2.5px 5px #D9D9D9;
     border-radius: 3em;
-    margin-bottom: 3em;
-    padding: 3em;
+    margin-bottom: 1em;
+    padding: 2em;
   }
 
 
@@ -731,16 +743,21 @@
   body{
     background: white;
     font-size: 16px;
-    padding: 2em;
-    padding-right: 1em;
-    padding-left: 1em;
   }
 
   header{
     display: flex;
-    padding:1em;
     align-items: flex-start;
-    height: 2em;
+  }
+
+  header h1{
+    flex:1;
+    font-size: 32px;
+    font-weight: 700;
+    padding-top: 0.6em;
+    padding-left: 1em;
+    padding-bottom:0.6em;
+    margin: 0;
   }
 
   nav{
@@ -787,4 +804,28 @@
     padding-left: 3em;
     padding-right: 3em;
   }
+
+  .checkout-cart img{
+    border: none;
+    border-radius: 0%;
+    width: 40%;
+    display: inline-block;
+    margin-top: 0.8em;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
+  }
+
+  /* Home Page Text */
+  .centered {
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+    }
 }

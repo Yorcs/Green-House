@@ -22,8 +22,8 @@
     <section id="combined-elements">
       <section class="element">
         <section id="combined-elements-checkout">
+          <h2>Checkout</h2>
           <section class="element-checkout">
-            <h2>Checkout</h2>
               <h3>Items</h3>
               <ol>
                 <li>Cochemiea Guelzowiana - $24.00</li>
@@ -44,12 +44,14 @@
               <input type="text" name = "postal" id = "postal" placeholder="Postal Code..."> 
 
               <h4>Payment Type</h4>
-              <input type="radio" id="visa" name="visa">
-              <label for="visa">Credit Card</label>
-              <input type="radio" id="debit" name="debit">
-              <label for="debit">Debit Card</label>
-              <input type="radio" id="pay" name="pay">
-              <label for="pay">Paypal</label><br>
+              <div id = "payment-radio">
+                <input type="radio" id="visa" name="visa">
+                <label for="visa">Credit Card</label>
+                <input type="radio" id="debit" name="debit">
+                <label for="debit">Debit Card</label>
+                <input type="radio" id="pay" name="pay">
+                <label for="pay">Paypal</label><br>
+              </div>
           </section>
 
           <a class="button-nav" href="#">Checkout</a>
