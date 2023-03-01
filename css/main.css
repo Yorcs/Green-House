@@ -72,14 +72,40 @@
     width: 100%;
     line-height: 2em;
     align-self: center;
-    box-shadow: 1.5px 2.5px 5px #D9D9D9;
     padding: 3em;
     font-family: adelle, serif;
     font-style: normal;
     font-weight: 100;
     font-size: 13px;
-    color: #333;
+    color: white;
+    background-color: #145A30;
   }
+
+  #footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width:60%;
+  }
+
+  #footer-content p{
+    padding-top: 1em;
+    font-size: 12px;
+    color: white;
+  }
+  
+  #footer-content a{
+    color: white;
+  }
+
+  #footer-content a:hover{
+    color: #E4B480;
+  }
+
+
+  
 
   
   .element {
