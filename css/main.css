@@ -13,10 +13,6 @@
     margin:0;
   }
 
-  .home{
-    width: 100%;
-
-  }
 
   header{
     background-color: #ffffff;
@@ -506,6 +502,25 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     align-self: center;
+  }
+
+  /*Main Home Page*/
+  .home{
+    width: 100%;
+  }
+  .centered {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  color: white;
+  transform: translate(-50%, -50%);
+  }
+
+  .centered h1 { 
+  color: white;
+  }
+  .centered .button-nav{
+    box-shadow: none;
   }
 
   /* Product Page */
