@@ -318,6 +318,10 @@
     transition-duration: 0.4s;
     box-shadow: 1.5px 2.5px 5px #D9D9D9;
   }
+  .checkout-cart:hover img{
+    color: white;
+    background-color: #588534;
+  }
 
   .image-link:hover{
     opacity: .6;
