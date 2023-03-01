@@ -376,18 +376,28 @@
   
   input[type=text] {
     font-family: Raleway;
-    padding: 10px;
-    border:1px solid #ccc; 
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+
   }
+
+  #message{
+    height:10em;
+  }
+
   
   input[type=text]:hover {
     border-color:rgb(20, 211, 141);
   }
   
   input[type=text]:focus {
-    border-color:#333;
+    border-color:#7fff8a;
   }
   
   input[type=submit] {
@@ -572,6 +582,11 @@
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     align-self: center;
+  }
+
+  .element-contact{
+    font-family: Raleway;
+    width:50%;
   }
 
   /* Product Page */
