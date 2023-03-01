@@ -265,7 +265,7 @@
   h2{
     font-family: Raleway;
     font-size: 35px;
-    color: rgb(60, 60, 60);
+    color: #145A30;
     padding-top: 0;
   }
   
@@ -538,7 +538,6 @@
     font-family: Raleway;
     padding: 5em;
     border-top-width: 0.15rem;
-    border-top-style: dotted;
     border-top-color: rgb(209, 209, 209);
     box-sizing: border-box;
     background-color: rgb(255, 255, 255);
