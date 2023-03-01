@@ -305,6 +305,20 @@
     background-color: #588534;
   }
 
+  .checkout-cart img{
+    border: none;
+    border-radius: 0%;
+    width: 40%;
+    display: inline-block;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
+  }
+
   .image-link:hover{
     opacity: .6;
     transition: opacity .5s ease-out;
