@@ -272,7 +272,7 @@
   h3 {
     font-family: Raleway;
     font-size: 28px;
-    color:#145A30;
+    color:#588534;
   }
   
   h4 {
@@ -331,6 +331,10 @@
     background-color: #588534;
   }
 
+  .checkout-cart{
+    padding-right: 1em;
+  }
+
   .checkout-cart img{
     border: none;
     border-radius: 0%;
@@ -360,7 +364,7 @@
   }
   
   img{
-    border: 2px solid rgb(179, 179, 179);
+    border: 2px solid rgb(234, 234, 234);
     border-radius: 25px;
   }
   
