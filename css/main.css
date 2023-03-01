@@ -534,17 +534,6 @@
     align-items: flex-start;
   }
 
-  #branding{
-    font-family: Raleway;
-    padding: 5em;
-    border-top-width: 0.15rem;
-    border-top-color: rgb(209, 209, 209);
-    box-sizing: border-box;
-    background-color: rgb(255, 255, 255);
-    border-radius: 20px;
-    align-self: center;
-  }
-
   /*Main Home Page*/
   .home{
     width: 100%;
@@ -562,6 +551,23 @@
   }
   .centered .button-nav{
     box-shadow: none;
+  }
+
+  .element-home{
+    font-family: Raleway;
+    padding: 4em;
+    padding: 2em;
+    padding-left: 5em;
+    padding-right: 5em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-self: center;
   }
 
   /* Product Page */
@@ -759,7 +765,6 @@
   }
 
   #branding{
-    padding: 3em;
     padding-left: 3em;
     padding-right: 3em;
   }
