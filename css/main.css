@@ -716,7 +716,7 @@
     padding-bottom: 1em;
   }
   
-  #product-listing-elements h3{
+  #product-listing-elements h2{
     margin-top: 3em;
     align-self:flex-start;
     flex-grow: 10;
