@@ -564,8 +564,15 @@
 
 
   /*Main Home Page*/
+  #banner-container{
+    width: 100%;
+    overflow: hidden;
+    height: 80%;
+  }
+
   .home{
     width: 100%;
+    overflow-y: hidden;
     overflow-x: hidden;
   }
 
@@ -604,6 +611,11 @@
   .element-contact{
     font-family: Raleway;
     width:50%;
+  }
+
+  #homepage-image{
+    width: 50%;
+    height: 19%;
   }
 
   /* Product Page */
@@ -861,6 +873,8 @@
   /* Home page content */
 
   .element-home{
+    display: flex;
+    flex-wrap: wrap;
     font-family: Raleway;
     padding: 2em;
     padding-left: 1em;
