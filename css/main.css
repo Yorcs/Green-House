@@ -566,7 +566,7 @@
   /*Main Home Page*/
   .home{
     width: 100%;
-    overflow: hidden;
+    overflow-x: hidden;
   }
 
   .centered {
@@ -770,38 +770,84 @@
 
   /* TODO: Fix the banner on homepage */
 
-@media screen and (min-width: 340px) and (max-width:1008px){
+@media screen and (min-width: 280px) and (max-width:1008px){
   body{
     background: white;
     font-size: 16px;
   }
 
+  /* Home page header & banner*/
   header{
     display: flex;
     align-items: flex-start;
+    flex-direction: column;
     margin-bottom: 2em;
   }
 
   header h1{
-    flex:1;
+    flex:2;
     font-size: 32px;
     font-weight: 700;
     padding-top: 0.6em;
     padding-left: 1em;
-    padding-bottom:0.6em;
+    padding-bottom:0em;
     margin: 0;
   }
 
   nav{
-    font-size: 14px;
+    font-size: 12px;
     display: flex;
     flex-direction: row;
     box-sizing: border-box;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
     margin-right: 0.5em;
     padding-right: 0.5em;
   }
+
+  .checkout-cart{
+    padding-left: 7em;
+  }
+
+  .checkout-cart img{
+    border: none;
+    border-radius: 0%;
+    width: 40%;
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
+  }
+
+  .home{
+    padding-top: 6em;
+    margin-top: 5em;
+    width: 100%;
+  }
+
+  .button-nav{
+    width: 60%;
+    margin-top:0;
+  }
+
+  /* Home Page Text */
+  .centered {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+    }
+
+    .centered h1{
+      font-size: 1.5em;
+      width: 100%;
+    }
 
   h1{
     font-size: 2.5em;
@@ -810,6 +856,35 @@
 
   h2{
     font-size: 1.8em;
+  }
+
+  /* Home page content */
+
+  .element-home{
+    font-family: Raleway;
+    padding: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  p{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    width: 80%;
+    line-height: 2em;
+    color: #333;
   }
 
   /* header sections */
@@ -836,37 +911,4 @@
     padding-left: 3em;
     padding-right: 3em;
   }
-
-  .checkout-cart img{
-    border: none;
-    border-radius: 0%;
-    width: 40%;
-    display: inline-block;
-    margin-top: 0.8em;
-    padding: 0.9rem;
-    color: #588534;
-    background-color: white;
-    text-decoration: none;
-    border-radius: 20px; 
-    transition-duration: 0.4s;
-    box-shadow: 1.5px 2.5px 5px #D9D9D9;
-  }
-
-  .home{
-    margin-top: 4em;
-    width: 100%;
-  }
-
-  .button-nav{
-    margin-top:3em;
-  }
-
-  /* Home Page Text */
-  .centered {
-    position: absolute;
-    top: 30%;
-    left: 40%;
-    color: white;
-    transform: translate(-50%, -50%);
-    }
 }
