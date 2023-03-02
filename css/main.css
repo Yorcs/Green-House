@@ -259,8 +259,9 @@
     font-family: Raleway;
     font-size: 35px;
     color: #145A30;
-    padding-top: 0;
+    padding-top: 3em;
     padding-left: 2.5em;
+    margin-top: 0;
   }
 
   h2{
@@ -768,6 +769,7 @@
   header{
     display: flex;
     align-items: flex-start;
+    margin-bottom: 2em;
   }
 
   header h1{
