@@ -664,7 +664,9 @@
   .products{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     padding-right: 1em;
     font-family: Raleway;
     font-size: 16px;
