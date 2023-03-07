@@ -812,6 +812,10 @@
   }
 
   /* Home page header & banner*/
+  #banner-container{
+    height: 60%;
+  }
+
   header{
     display: flex;
     align-items: flex-start;
@@ -895,9 +899,15 @@
 
   /* Home page content */
 
+  #homepage-image{
+    width: 80%;
+    height: 49%;
+  }
+
   .element-home{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     font-family: Raleway;
     padding: 2em;
     padding-left: 1em;
