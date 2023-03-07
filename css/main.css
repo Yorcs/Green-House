@@ -657,6 +657,28 @@
     margin-bottom: 4em;
   }
 
+  /* https://css-tricks.com/five-methods-for-five-star-ratings/ stars reference */
+
+  :root {
+    --star-size: 60px;
+    --star-color: #989898;
+    --star-background: #fc0;
+ }
+  .Stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: var(--star-size);
+    font-family: Times;
+    line-height: 1;
+ }
+  .Stars::before {
+    content: '★★★★★';
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, var(--star-background) var(--percent), var(--star-color) var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+ }
+
   #price{
     font-style: italic;
     font-family: adelle, serif;
@@ -670,6 +692,7 @@
   }
 
   #product_details .button-nav{
+    margin-top: 5em;
     margin-left: 5em;
   }
   
