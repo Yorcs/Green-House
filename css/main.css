@@ -31,7 +31,7 @@
 
   header h1{
     flex:1;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     padding-top: 0.3em;
     padding-left: 1em;
@@ -832,7 +832,7 @@
 
   /* Small size */
 
-@media screen and (min-width: 280px) and (max-width:415px){
+@media screen and (min-width: 280px) and (max-width:525px){
   html{
     overflow-x: hidden;
   }
@@ -868,7 +868,7 @@
   header h1{
     align-self: center;
     flex:2;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     padding-left: 0;
     padding-top: 0.6em;
@@ -1133,7 +1133,7 @@
 
 /* Medium size (Tablet) */
 
-@media screen and (min-width: 415px) and (max-width:1008px){
+@media screen and (min-width: 526px) and (max-width:1008px){
   html{
     overflow-x: hidden;
   }
@@ -1174,7 +1174,7 @@
   header h1{
     align-self: center;
     flex: 2;
-    font-size: 32px;
+    font-size: 2rem;
     font-weight: 700;
     padding-left: 0.5em;
     padding-top: 0.6em;
@@ -1204,7 +1204,7 @@
     border-radius: 0%;
     width: 40%;
     display: inline-block;
-    margin-top: 0.5em;
+    margin-top: 0.3em;
     padding: 0.9rem;
     color: #588534;
     background-color: white;
