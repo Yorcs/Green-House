@@ -19,6 +19,7 @@
     background-color: #ffffff;
     width:100%;
     flex-wrap: wrap;
+    flex-direction: row;
     border-bottom: 2px solid rgb(179, 179, 179);
     border-radius: 10px;
     justify-content: center;
@@ -734,6 +735,14 @@
     padding-left: 1.5em;
   }
 
+  #filters-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
   .filter-content{
     padding-right: 1em;
     display: flex;
@@ -823,9 +832,7 @@
 
   /* Small size */
 
-  /* TODO: Fix the banner on homepage */
-
-@media screen and (min-width: 280px) and (max-width:1008px){
+@media screen and (min-width: 280px) and (max-width:415px){
   html{
     overflow-x: hidden;
   }
@@ -853,17 +860,18 @@
 
   header{
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
     margin-bottom: 2em;
   }
 
   header h1{
+    align-self: center;
     flex:2;
     font-size: 32px;
     font-weight: 700;
+    padding-left: 0;
     padding-top: 0.6em;
-    padding-left: 1em;
     padding-bottom:0em;
     margin: 0;
   }
@@ -871,6 +879,8 @@
   nav{
     font-size: 12px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     box-sizing: border-box;
     margin-top: 0.5em;
@@ -880,7 +890,7 @@
   }
 
   .checkout-cart{
-    padding-left: 7em;
+    padding-left: 0em;
   }
 
   .checkout-cart img{
@@ -921,7 +931,7 @@
 
   .centered {
     position: absolute;
-    top: 50%;
+    top: 20em;
     left: 40%;
     color: white;
     transform: translate(-50%, -50%);
@@ -938,7 +948,7 @@
   }
 
   h2{
-    margin-top: 1.5em;
+    margin-top: 6em;
     font-size: 1.8em;
   }
 
@@ -1014,9 +1024,16 @@
     padding-left: 0em;
   }
 
+  #filters-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   #filters-container{
-    padding-right: 0em;
-    padding-left: 0em;
+    flex-direction: column;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
   }
 
   #filters-container h4{
@@ -1078,6 +1095,301 @@
   .element-contact{
     font-family: Raleway;
     margin-top: 10em;
+    width:90%;
+  }
+
+
+  /* header sections */
+
+  #interactive_elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #text_elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  #combined-elements{
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  #branding{
+    padding-left: 3em;
+    padding-right: 3em;
+  }
+
+  #combined-elements-checkout{
+    flex-direction: column;
+  }
+}
+
+/* Medium size (Tablet) */
+
+@media screen and (min-width: 415px) and (max-width:1008px){
+  html{
+    overflow-x: hidden;
+  }
+  body{
+    background: white;
+    font-size: 16px;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Home page header & banner*/
+  #banner-container{
+    height: 50%;
+    overflow-x: hidden;
+  }
+
+  ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 25px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+
+  header{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-bottom: 2em;
+  }
+
+  header h1{
+    align-self: center;
+    flex:2;
+    font-size: 32px;
+    font-weight: 700;
+    padding-left: 0;
+    padding-top: 0.6em;
+    padding-bottom:0em;
+    margin: 0;
+  }
+
+  nav{
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    box-sizing: border-box;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+    margin-right: 0.5em;
+    padding-right: 0.5em;
+  }
+
+  .checkout-cart{
+    padding-left: 0em;
+  }
+
+  .checkout-cart img{
+    border: none;
+    border-radius: 0%;
+    width: 40%;
+    display: inline-block;
+    margin-top: 0.5em;
+    padding: 0.9rem;
+    color: #588534;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
+  }
+
+  ul li {
+    float: left;
+    margin-left: 2em;
+  }
+
+  #guide_nav{
+    margin-left:0em;
+  }
+
+  .button-nav{
+    width: 60%;
+    margin-top:0;
+  }
+
+  /* Home Page Text */
+  .home{
+    padding-top: 0em;
+    margin-top: 3em;
+    width: 100%;
+  }
+
+  .centered {
+    position: absolute;
+    top: 18em;
+    left: 40%;
+    color: white;
+    transform: translate(-50%, -50%);
+    }
+
+    .centered h1{
+      font-size: 1.5em;
+      width: 100%;
+    }
+
+  h1{
+    font-size: 2.5em;
+    margin-right: 0.5em;
+  }
+
+  h2{
+    margin-top: 1.5em;
+    font-size: 1.8em;
+  }
+
+  /* Home page content */
+
+  #homepage-image{
+    width: 80%;
+    height: 49%;
+  }
+
+  .element-home{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-family: Raleway;
+    padding: 2em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-bottom: 2em;
+    margin-left: 1em;
+    border-top-width: 0.15rem;
+    border-top-style: dotted;
+    border-top-color: rgb(209, 209, 209);
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    align-self: center;
+  }
+
+  p{
+    font-family: adelle, serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    margin-top: 0;
+    width: 80%;
+    line-height: 2em;
+    color: #333;
+  }
+
+  /* Product listing */
+
+  .elements-div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 0em;
+    font-family: Raleway;
+    font-size: 16px;
+  }
+
+  #product-listing-elements{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 0em;
+    font-family: Raleway;
+    font-size: 16px;
+    padding-left: 0em;
+    padding-top: 2em;
+    padding-bottom: 1em;
+  }
+  
+  #product-listing-elements h2{
+    padding-top: 0em;
+    padding-left: 3em;
+    align-self:flex-start;
+    padding-right: 2em;
+  }
+
+  .products{
+    padding-right: 0em;
+    padding-left: 0em;
+  }
+
+  #filters-content-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #filters-container{
+    flex-direction: row;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+  }
+  
+  .item-box{
+    margin-right: 0em;
+  }
+
+  /* Product details page */
+
+  #product_page{
+    padding-left: 0.5em;
+  }
+
+  #product_page img{
+    width: 60%;
+    margin-left: 0.5em;
+    margin-top: 0em;
+  }
+
+  #price{
+    padding-left: 1em;
+  }
+
+  #product_details h2{
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  #product_description{
+    padding-left: 1em;
+    width: 75%;
+  }
+
+  #product_details .button-nav{
+    margin-left: 3em;
+  }
+
+  /* Checkout */
+
+  input[type="radio"]{
+    margin: 10px 5px 15px 10px;
+  }
+
+  #payment-radio{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 0;
+  }
+
+  /* Contact us page */
+
+  .element-contact{
+    font-family: Raleway;
+    margin-top: 3em;
     width:90%;
   }
 
