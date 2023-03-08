@@ -932,7 +932,7 @@
 
   .centered {
     position: absolute;
-    top: 20em;
+    top: 50%;
     left: 40%;
     color: white;
     transform: translate(-50%, -50%);
@@ -1237,16 +1237,16 @@
 
   .centered {
     position: absolute;
-    top: 18em;
-    left: 40%;
+    top: 14em;
+    left: 30%;
     color: white;
     transform: translate(-50%, -50%);
-    }
+  }
 
-    .centered h1{
-      font-size: 1.5em;
-      width: 100%;
-    }
+  .centered h1{
+    font-size: 1.5em;
+    width: 100%;
+  }
 
   h1{
     font-size: 2.5em;
