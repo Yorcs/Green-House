@@ -829,7 +829,7 @@
 
   /* Home page header & banner*/
   #banner-container{
-    height: 60%;
+    height: 70%;
   }
 
   header{
@@ -879,10 +879,13 @@
     box-shadow: 1.5px 2.5px 5px #D9D9D9;
   }
 
-  .home{
-    padding-top: 6em;
-    margin-top: 5em;
-    width: 100%;
+  ul li {
+    float: left;
+    margin-left: 2em;
+  }
+
+  #guide_nav{
+    margin-left:0em;
   }
 
   .button-nav{
@@ -891,9 +894,15 @@
   }
 
   /* Home Page Text */
+  .home{
+    padding-top: 6em;
+    margin-top: 7em;
+    width: 100%;
+  }
+
   .centered {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 40%;
     color: white;
     transform: translate(-50%, -50%);
@@ -975,7 +984,7 @@
   }
   
   #product-listing-elements h2{
-    padding-top: 3em;
+    padding-top: 5em;
     align-self:center;
     padding-right: 2em;
   }
