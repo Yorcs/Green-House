@@ -659,16 +659,19 @@
   /* https://css-tricks.com/five-methods-for-five-star-ratings/ stars reference */
 
   :root {
-    --star-size: 60px;
+    --star-size: 20px;
     --star-color: #989898;
     --star-background: #fc0;
  }
   .Stars {
     --percent: calc(var(--rating) / 5 * 100%);
     display: inline-block;
+    padding-left: 0.7em;
+    padding-bottom: 1.5em;
     font-size: var(--star-size);
     font-family: Times;
     line-height: 1;
+    width: 75%;
  }
   .Stars::before {
     content: '★★★★★';
@@ -684,7 +687,7 @@
     font-weight: 100;
     font-size: 16px;
     margin-top: 0;
-    margin-bottom: 2em;
+    margin-bottom: 0.7em;
     width: 70%;
     line-height: 2em;
     color: #333;
