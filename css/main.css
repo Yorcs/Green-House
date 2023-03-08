@@ -821,14 +821,20 @@
   /* TODO: Fix the banner on homepage */
 
 @media screen and (min-width: 280px) and (max-width:1008px){
+  html{
+    overflow-x: hidden;
+  }
   body{
     background: white;
     font-size: 16px;
+    overflow-x: hidden;
+    position: relative;
   }
 
   /* Home page header & banner*/
   #banner-container{
     height: 70%;
+    overflow-x: hidden;
   }
 
   ul li a {
