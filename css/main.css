@@ -554,6 +554,7 @@
     justify-content: start;
     flex-direction: row;
     align-items: flex-start;
+    padding-top: 3em;
   }
 
   #citations{
@@ -1099,6 +1100,7 @@
     align-content: center;
     justify-content: center;
     flex-direction: column;
+
   }
 
   #branding{
