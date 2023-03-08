@@ -443,7 +443,6 @@
   
   input[type="radio"]{
     margin: 10px 5px 15px 15px;
-
   }
 
   #payment-radio{
@@ -1049,6 +1048,20 @@
     margin-left: 3em;
   }
 
+  /* Checkout */
+
+  input[type="radio"]{
+    margin: 10px 5px 15px 10px;
+  }
+
+  #payment-radio{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 0;
+  }
+
   /* Contact us page */
 
   .element-contact{
@@ -1080,5 +1093,9 @@
   #branding{
     padding-left: 3em;
     padding-right: 3em;
+  }
+
+  #combined-elements-checkout{
+    flex-direction: column;
   }
 }
