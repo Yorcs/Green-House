@@ -832,6 +832,15 @@
     height: 70%;
   }
 
+  ul li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 13px 25px;
+    text-decoration: none;
+    transition-duration: 0.2s;
+  }
+
   header{
     display: flex;
     align-items: flex-start;
@@ -919,6 +928,7 @@
   }
 
   h2{
+    margin-top: 7em;
     font-size: 1.8em;
   }
 
@@ -1008,6 +1018,44 @@
   .item-box{
     margin-right: 0em;
   }
+
+  /* Product details page */
+
+  #product_page{
+    padding-left: 0.5em;
+  }
+
+  #product_page img{
+    width: 90%;
+    margin-left: 0.5em;
+    margin-top: 6em;
+  }
+
+  #price{
+    padding-left: 1em;
+  }
+
+  #product_details h2{
+    padding-left: 0.5em;
+    margin-top: 0.5em;
+  }
+
+  #product_description{
+    padding-left: 1em;
+    width: 90%;
+  }
+
+  #product_details .button-nav{
+    margin-left: 3em;
+  }
+
+  /* Contact us page */
+
+  .element-contact{
+    font-family: Raleway;
+    width:90%;
+  }
+
 
   /* header sections */
 
