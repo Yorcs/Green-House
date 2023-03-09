@@ -179,7 +179,7 @@
   
   }
 
-  /* Taken from https://www.w3schools.com/howto/howto_js_collapsible.asp */
+
 .collapsible {
   color: grey;
   cursor: pointer;
@@ -916,6 +916,9 @@
   #dropdown{
     background-color: white;
   }
+
+  /* Reference for checkbox https://www.w3schools.com/howto/howto_js_display_checkbox_text.asp 
+     To make hamburger menu */
 
   #myCheck{
     display: none;
