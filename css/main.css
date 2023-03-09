@@ -1071,7 +1071,6 @@
   }
   
   #product-listing-elements h2{
-    padding-top: 5em;
     align-self:center;
     padding-right: 2em;
   }
@@ -1151,7 +1150,7 @@
 
   .element-contact{
     font-family: Raleway;
-    margin-top: 10em;
+    margin-top: 3em;
     width:90%;
   }
 
