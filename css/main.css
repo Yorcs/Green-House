@@ -883,6 +883,18 @@
 
   .navbar-container img{
     border: none;
+    border-radius: 0%;
+    display: inline-block;
+    padding: 0.8em;
+    background-color: white;
+    text-decoration: none;
+    border-radius: 20px; 
+    transition-duration: 0.4s;
+    box-shadow: 1.5px 2.5px 5px #D9D9D9;
+  }
+
+  .navbar-container img:hover{
+    background-color: #588534;
   }
 
   .navbar{
