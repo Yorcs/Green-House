@@ -813,7 +813,7 @@
     width: 100%;
   }
 
-  #payment-container{
+  .payment-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -1226,7 +1226,7 @@
     padding-right: 0;
   }
 
-  #payment-container{
+  .payment-container{
     flex-direction: column;
   }
 
@@ -1547,7 +1547,7 @@
     padding-right: 0;
   }
 
-  #payment-container{
+  .payment-container{
     flex-direction: row;
   }
 
