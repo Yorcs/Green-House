@@ -46,18 +46,18 @@
           <section class="element-checkout">
               <h3>Items</h3>
               <div class="checkout-container">
-                <div class="checkout-item">
+                <div class="item-box">
                   <a class="image-link"  href="kaya_page.html"> <img src="img/pink.jpg" alt = "image of a small cactus with pink flowers" width="185" 
                     height="225"></a>
                   <p class="item-name">Kaya</p>
-                  <p class="item-name">$24.00</p>
+                  <p class="final-price">$24.00</p>
                 </div>
 
-                <div class="checkout-item">
+                <div class="item-box">
                   <a class="image-link"  href="london_cactus_page.html"> <img src="img/london.jpg" alt = "image of a cactus with long thorns" width="185" 
                     height="225"></a>
                     <p class="item-name">London Cactus</p>
-                    <p class="item-name">$21.00</p>
+                    <p class="final-price">$21.00</p>
                 </div>
 
                 <p>Total Price: $45.00</p>
@@ -76,13 +76,21 @@
               <input type="text" name = "postal" id = "postal" placeholder="Postal Code..."> 
 
               <h4>Payment Type</h4>
-              <div id = "payment-radio">
-                <input type="radio" id="visa" name="payment-method">
-                <label for="visa">Credit Card</label>
-                <input type="radio" id="debit" name="payment-method">
-                <label for="debit">Debit Card</label>
-                <input type="radio" id="pay" name="payment-method">
-                <label for="pay">Paypal</label><br>
+              <div id="payment-container">
+                <div id = "payment-radio">
+                  <input type="radio" id="visa" name="payment-method">
+                  <label for="visa">Credit Card</label>
+                </div>
+                
+                <div id = "payment-radio">
+                  <input type="radio" id="debit" name="payment-method">
+                  <label for="debit">Debit Card</label>
+                </div>
+
+                <div id="payment-radio">
+                  <input type="radio" id="pay" name="payment-method">
+                  <label for="pay">Paypal</label><br>
+                </div>
               </div>
 
               <a class="button-nav" href="#">Checkout</a>

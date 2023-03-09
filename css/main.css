@@ -794,9 +794,18 @@
     margin-top: 2em;
   }
 
+  .checkout-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding-right: 0em;
+    font-family: Raleway;
+    font-size: 16px;
+  }
+
   .checkout-item{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
@@ -804,9 +813,18 @@
     width: 100%;
   }
 
+  #payment-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
   .item-name{
     margin-right: 8em;
     width:20%;
+  }
+
+  .final-price{
     font-style: italic;
   }
   
@@ -846,7 +864,6 @@
   }
 
   .element-checkout{
-    width: 100%;
     margin-right: 3em;
     background-color: #ffffff;
     box-shadow: 1.5px 2.5px 5px #D9D9D9;
@@ -1209,6 +1226,10 @@
     padding-right: 0;
   }
 
+  #payment-container{
+    flex-direction: column;
+  }
+
   /* Contact us page */
 
   .element-contact{
@@ -1524,6 +1545,10 @@
     flex-wrap: wrap;
     flex-direction: row;
     padding-right: 0;
+  }
+
+  #payment-container{
+    flex-direction: row;
   }
 
   /* Contact us page */
