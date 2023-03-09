@@ -5,6 +5,7 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>Green House</title>
     <link href="css/main.css" rel="stylesheet">
+    <script src="dropdown.js"></script>
 
   </head>
   <body>
@@ -22,6 +23,26 @@
         alt = "image of a checkout cart" width="40" height="20"></a>
       
   </header>
+
+  <div class = "navbar-container">
+    <div class = "navbar">
+      <input type="checkbox" id="myCheck" onclick="myFunction()">
+      <label for="myCheck"><img src="img/menu.png" width="30" height="30"></label>
+      <h1>Green House</h1>
+      <a class="checkout-cart" href="checkout.html"> <img src="img/cart.png"
+            alt = "cart" width="40" height="20">
+      </a>
+    </div>
+    <nav id="dropdown" style="display:none">
+        <ul>   
+          <li><a href="index.html">Home</a></li>
+          <li><a href="product_listing.html">Products</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+          <li id="guide_nav"><a href="styleguide.html">Guide</a></li>
+      </ul>
+    </nav>
+  </div>
+
     <!-- INTERACTIVE ELEMENTS SECTION // -->
     <h2 class="h2-headings">Interactive Elements</h2>
     <section id="interactive_elements">
